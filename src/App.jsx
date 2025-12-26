@@ -15,10 +15,8 @@ export default function App() {
 
   return (
     <>
-      {/* Navbar */}
       <div className="navbar">NETFLIX</div>
 
-      {/* Banner */}
       {banner && (
         <header
           className="banner"
@@ -31,7 +29,6 @@ export default function App() {
         </header>
       )}
 
-      {/* Rows */}
       <h2 className="title">Popular Shows</h2>
       <div className="row">
         {shows.map(item =>
